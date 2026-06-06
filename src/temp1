@@ -1,0 +1,28 @@
+
+
+#define Hp0 1
+#define Sh1 2
+#define Hp1 3
+#define Hp2 4
+
+const int addr1[] = { 80, 81};    // Adressen Ausfahrsignal N1
+const int addr2[] = { 78, 79};    // Adressen Ausfahrsignal N2
+const int addr3[] = { 74, 75};    // Adressen Ausfahrsignal N3
+
+Multiplex Signal1( 8, 13, 6,  7); // nicht systematisch weiße Markierung beachten
+Multiplex Signal2( 4, 13, 5,  3); // Vorwiderstände 120 Ohm 0204 mini
+Multiplex Signal3(11, 13, 9, 10);
+
+in void loop()
+Signal1.frameWriter();
+Signal2.frameWriter();
+Signal3.frameWriter();
+
+
+if (myAddr == addr1[0]) {
+		if(Direction == 1){
+			Signal1.setSignal(Hp1);}
+		else {
+	        Signal1.setSignal(Hp0);}
+		}
+}
