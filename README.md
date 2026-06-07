@@ -1,7 +1,7 @@
 Copyright (c) 2025 BahnOtto
 
 Das Arduino Programm wurde zur DCC-Steuerung von Viessman Multiplex-Signalen entwickelt.
-Das wird unter https://BahnOtto.de documentiert.
+Das Projekt wurde unter https://BahnOtto.de documentiert.
 
 Lizenz
 Dieses Projekt steht unter der CC BY‑NC 4.0 Lizenz.
