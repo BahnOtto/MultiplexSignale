@@ -1,3 +1,5 @@
+// Copyright (c) 2025 BahnOtto
+
 #include <Arduino.h>
 
 /* Dieser Decoder steuert:
@@ -5,7 +7,6 @@
  *  - Ausfahrsignal N2
  *  - Ausfahrsignal N3
  */
-
 
 #include "Multiplex.h"
 #include <NmraDcc.h>

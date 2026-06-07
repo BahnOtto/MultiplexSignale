@@ -1,3 +1,4 @@
+// Copyright (c) 2025 BahnOtto
 
 #ifndef Multiplex_h
 #define Multiplex_h

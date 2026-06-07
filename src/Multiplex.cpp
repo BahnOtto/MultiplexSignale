@@ -1,3 +1,5 @@
+// Copyright (c) 2025 BahnOtto
+
 #include "Arduino.h"
 #include "Multiplex.h"
 
